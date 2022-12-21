@@ -32,7 +32,7 @@ export const otSol: Question = {
     negative: otHor
 }
 export const otStart: Question = {
-    text: "Вам нравится романтика?",
+    text: "Вам нравятся романтические комедии ?",
     positive: kag,
     negative: otSol
 }
@@ -73,7 +73,7 @@ export const oneDay: Answer = {
 }
 
 export const drSup: Question = {
-    text: "Вам нравится сверхъестественное?",
+    text: "Вам нравятся сверхъестественные истории?",
     positive: tenK,
     negative: hours
 }
@@ -103,12 +103,12 @@ export const drRom: Question = {
     negative: oneDay
 }
 export const drSf: Question = {
-    text: "Вам нравится фантастика?",
+    text: "Вам нравятся фантастические истории?",
     positive: tako,
     negative: drRom
 }
 export const drFan: Question = {
-    text: "Вам нравится фэнтези?",
+    text: "Вам нравится фэнтезийные истории?",
     positive: drPost,
     negative: drSf
 }
@@ -118,7 +118,7 @@ export const drArt: Question = {
     negative: drFan
 }
 export const drDepr: Question = {
-    text: "Вам нравятся депрессивные истории?",
+    text: "Хотите депрессивную историю?",
     positive: pun,
     negative: drArt
 }
@@ -294,7 +294,7 @@ export const fanAfterHum: Question = {
     negative: gachi
 }
 export const fanPost: Question = {
-    text: "Вам нравится пост-апокалипсис?",
+    text: "Вам нравятся пост-апокалиптичные миры?",
     positive: fanAfterHum,
     negative: solo
 }
@@ -357,7 +357,7 @@ export const supDepr: Question = {
 }
 
 export const supParts: Question = {
-    text: "Хотите историю стоящую из нескольких частей с разными протагонистами?",
+    text: "Хотите историю состоящую из нескольких частей с разными протагонистами?",
     positive: supPace,
     negative: supDepr
 }
@@ -380,7 +380,7 @@ export const supWeird: Question = {
 }
 
 export const supStart: Question = {
-    text: "Вам нравится сверхестественное?",
+    text: "Вам нравится сверхъестественное?",
     positive: supWeird,
     negative: fanStart
 }

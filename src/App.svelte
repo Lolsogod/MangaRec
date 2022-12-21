@@ -11,16 +11,14 @@
     	return 'positive' in object;
 	}
 
-	const fin= () =>{finished=true}
-
 	const handle_yes = () => {
 		if (isQuestion(head)) head = head.positive
-		if (!isQuestion(head)) fin()
+		if (!isQuestion(head)) finished=true
 	}
 
 	const handle_no = () => {
 		if (isQuestion(head)) head = head.negative
-		if (!isQuestion(head)) fin()
+		if (!isQuestion(head)) finished=true
 	}
 </script>
 
