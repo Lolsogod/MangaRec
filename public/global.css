@@ -37,8 +37,8 @@ input, button, select, textarea {
 	padding: 0.4em;
 	margin: 0 0 0.5em 0;
 	box-sizing: border-box;
-	border: 1px solid #ccc;
-	border-radius: 2px;
+	border: 0px;
+	border-radius: 5px;
 }
 
 input:disabled {
@@ -46,8 +46,10 @@ input:disabled {
 }
 
 button {
-	color: #333;
-	background-color: #f4f4f4;
+	margin-top: 20px;
+	padding: 5px 50px;
+	color: white;
+	background-color: #2d2d2e;
 	outline: none;
 }
 
@@ -56,9 +58,13 @@ button:disabled {
 }
 
 button:not(:disabled):active {
-	background-color: #ddd;
+	background-color: rgb(70, 70, 70);
 }
 
 button:focus {
 	border-color: #666;
+}
+p{
+	margin-bottom: 5px;
+	margin-top: 5px 
 }

@@ -24,16 +24,38 @@
 
 <main>
 	<h1>MangaRec</h1>
-	<p>{head.text}</p>
-	<div class="{`fin-${finished}`}">
+	<div class="{`after-${finished}`}">
+		<img class="img-cont" src="{head.img}" alt="">
+		<p class="question">Вам подойдёт:</p>
+	</div>
+	<p class="question">{head.text}</p>
+	<div class="{`after-${finished}`}">
+		<p class="author">Автор: {head.author}</p>
+	</div>
+	<div class="{`fin-${finished} `}">
 		<button on:click={handle_yes}>Да</button>
 		<button on:click={handle_no}>Нет</button>
 	</div>
 </main>
 
 <style>
+	.img-cont{
+		height: 283px;
+		border-radius: 10px;
+	}
+	.question{
+		font-size: 25px;
+	}
 	.fin-true{
 		display: none;
+	}
+	.after-false{
+		display: none;
+	}
+
+	.author{
+		font-size: larger;
+		color: gray;
 	}
 
 	main {
