@@ -1,11 +1,11 @@
 export interface Question{
-    id?: string;
     text: string;
     positive: Question | Answer;
     negative: Question | Answer;
+    mark_p?: boolean
+    mark_n?: boolean
 }
 
 export interface Answer{
-    id?: string;
     text: string;
 }
